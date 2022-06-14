@@ -1,0 +1,5 @@
+C:\Users\Fabiano\source\repos\IMC\obj\Debug\net5.0\IMC.csproj.AssemblyReference.cache
+C:\Users\Fabiano\source\repos\IMC\obj\Debug\net5.0\IMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fabiano\source\repos\IMC\obj\Debug\net5.0\IMC.AssemblyInfoInputs.cache
+C:\Users\Fabiano\source\repos\IMC\obj\Debug\net5.0\IMC.AssemblyInfo.cs
+C:\Users\Fabiano\source\repos\IMC\obj\Debug\net5.0\IMC.csproj.CoreCompileInputs.cache
