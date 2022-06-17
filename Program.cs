@@ -27,11 +27,13 @@ namespace IMC
             Console.WriteLine($"Peso: {peso}");
             Console.WriteLine($"Categoria: {Peso.VerificaCategoria(idade)} \r\n");
             Console.WriteLine($"IMC Desejável: Entre 20 e 24");
-
-            var imc = Peso.CalculoIMC(altura, peso);
-            var informacoes = Peso.InformacoesImc(imc);
-
-            Console.WriteLine($"Resultado IMC: {imc.ToString("F2")}");
+            //Fim Exibir Dados
+            //Calculos e Funções
+            var imc = Peso.CalculoIMC(altura, peso); //Adiciona o resultado do calculo ba variavel
+            var informacoes = Peso.InformacoesImc(imc);//Identifica o laço que será usado para mostrar as informações e grava as informações no atributo do objeto
+            //Fim calculo e Funções
+            //Exibe as Informações de Recomendação e Riscos
+            Console.WriteLine($"Resultado IMC: {imc:F2}");
             Console.WriteLine($"Riscos: {informacoes.Riscos}");
             Console.WriteLine($"Recomendação Inicial: {informacoes.Recomendacao}");
         }
